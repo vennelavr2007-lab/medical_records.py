@@ -1,0 +1,36 @@
+print("       MEDICAL RECORD SYSTEM")
+name = input("Enter Patient Name: ")
+age = input("Enter Age: ")
+gender = input("Enter Gender: ")
+blood = input("Enter Blood Group: ")
+disease = input("Enter Disease: ")
+doctor = input("Enter Doctor Name: ")
+medicine = input("Enter Medicine: ")
+print("        MEDICAL RECORD")
+print("Patient Name :", name)
+print("Age          :", age)
+print("Gender       :", gender)
+print("Blood Group  :", blood)
+print("Disease      :", disease)
+print("Doctor       :", doctor)
+print("Medicine     :", medicine)
+print("Medical record saved successfully!")
+
+OUTPUT:
+       MEDICAL RECORD SYSTEM
+Enter Patient Name: VENNELA
+Enter Age: 19
+Enter Gender: FEMALE
+Enter Blood Group: 0+
+Enter Disease: COLD
+Enter Doctor Name: BOBBY
+Enter Medicine: TABLET
+        MEDICAL RECORD
+Patient Name : VENNELA
+Age          : 19
+Gender       : FEMALE
+Blood Group  : 0+
+Disease      : COLD
+Doctor       : BOBBY
+Medicine     : TABLET
+Medical record saved successfully!
